@@ -8,12 +8,12 @@ Coinmarketcap.com API Client
 PHP client for [CoinMarketCap JSON API](https://coinmarketcap.com/api/) 
 
 # Installation
-```
+```bash
 composer require rentberry/coinmarketcap-api
 ```
 
 # Usage
-```
+```php
 $client = new Rentberry\Coinmarketcap\Conimarketcap();
 $client->getTickers();
 $client->getTicker('bitcoin');
