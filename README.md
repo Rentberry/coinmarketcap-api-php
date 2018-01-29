@@ -5,7 +5,7 @@ Coinmarketcap.com API Client
 [![Latest Stable Version](https://img.shields.io/packagist/v/rentberry/coinmarketcap-api.svg?style=flat-square)](https://packagist.org/packages/rentberry/coinmarketcap-api)
 [![Total Downloads](https://img.shields.io/packagist/dt/rentberry/coinmarketcap-api.svg?style=flat-square)](https://packagist.org/packages/rentberry/coinmarketcap-api)
 
-PHP client for [CoinMarketCap JSON API Documentation](https://coinmarketcap.com/api/) 
+PHP client for [CoinMarketCap JSON API](https://coinmarketcap.com/api/) 
 
 # Installation
 ```
