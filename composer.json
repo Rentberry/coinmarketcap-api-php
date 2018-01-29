@@ -1,0 +1,24 @@
+{
+    "name": "rentberry/coinmarketcap-api",
+    "description": "Coinmarketcap API PHP client",
+    "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Rentberry\\Coinmarketcap\\": "src/"
+        }
+    },
+    "require-dev": {
+        "ext-bcmath": "*",
+        "phpunit/phpunit": "^6.5"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Rentberry\\Coinmarketcap\\Tests\\": "tests/"
+        }
+    }
+}

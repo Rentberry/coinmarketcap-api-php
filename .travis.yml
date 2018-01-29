@@ -1,0 +1,17 @@
+language: php
+sudo: false
+
+php:
+  - 7.0
+  - 7.1
+  - 7.2
+
+before_script:
+  - composer install --dev --prefer-dist --no-interaction -o
+
+script:
+  - ./vendor/bin/phpunit
+
+cache:
+  directories:
+    - $COMPOSER_CACHE_DIR
