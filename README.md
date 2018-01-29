@@ -24,4 +24,4 @@ $client->getGlobals();
 ```
 
 # License
-See [LICENSE](https://github.com/rentberry/coinmarketcap-api-php/blob/master/LICENSE)
+MIT. See [LICENSE](https://github.com/rentberry/coinmarketcap-api-php/blob/master/LICENSE)
