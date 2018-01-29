@@ -1,6 +1,6 @@
 Coinmarketcap.com API Client
 ---
-PHP client for [CoinMarketCap JSON API Documentation](https://coinmarketcap.com/api/) 
+PHP client for [CoinMarketCap JSON API](https://coinmarketcap.com/api/) 
 
 # Installation
 ```
