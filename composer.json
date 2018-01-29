@@ -13,7 +13,8 @@
         }
     },
     "require-dev": {
-        "ext-bcmath": "*",
+        "php": "^7.1",
+        "ext-bcmath": "@stable",
         "phpunit/phpunit": "^6.5"
     },
     "autoload-dev": {
