@@ -14,13 +14,13 @@ composer require rentberry/coinmarketcap-api
 
 # Usage
 ```php
-$client = new Rentberry\Coinmarketcap\Conimarketcap();
+$client = new Rentberry\Coinmarketcap\Coinmarketcap();
 $client->getTickers();
 $client->getTicker('bitcoin');
-$client->getExcahngeRate('ethereim', 'USD');
+$client->getExchangeRate('ethereum', 'USD');
 $client->convertToFiat(10, 'ethereum', 'USD');
 $client->convertToCrypto(10, 'USD', 'ethereum');
-$client->getGlobals();
+$client->getGlobal(); 
 ```
 
 # License
